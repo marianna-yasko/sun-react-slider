@@ -1,0 +1,32 @@
+{
+  "name": "sun-react-slider",
+  "version": "1.0.0",
+  "description": "Slider on React.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dbased on React.js code",
+  "main": "sun-slider.js",
+  "scripts": {
+    "test": "npm run jest",
+    "deploy": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianna-yasko/sun-react-slider.git"
+  },
+  "keywords": [
+    "slider",
+    "react.js"
+  ],
+  "author": "Marianna Yasko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marianna-yasko/sun-react-slider/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "homepage": "https://github.com/marianna-yasko/sun-react-slider#readme"
+}
