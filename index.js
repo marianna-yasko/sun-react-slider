@@ -78,19 +78,3 @@ class SunReactSlider extends React.Component {
         });
     }
 }
-
-ReactDOM.render(
-    React.createElement(SunReactSlider, {
-        childItemName: 'child item',
-        items: new Promise((resolve, reject) => {
-            fetch('https://api.github.com/repositories?since=364', {
-                credentials: "same-origin"
-            }).then((reposes) => {
-                resolve(reposes);
-            }).catch((err) => {
-                throw new Error('Unavailable to get reposes: ');
-            });
-        })
-    }),
-    document.getElementById('root')
-);
